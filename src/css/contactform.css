@@ -1,0 +1,49 @@
+.form-body{
+    margin-bottom: 40px;
+}
+.form-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.form-div form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.form-div form label {
+    display: block;
+    text-align: center;
+    margin: 15px 0 15px 0;
+    font-size: 22px;
+}
+.form-div form input , .form-div form textarea {
+    padding:5px 5px;
+    width: 300px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+}
+.form-div form textarea{
+    resize: none;
+    height: 120px;
+    margin-bottom: 12px;
+}
+.form-div form .count {
+    margin-bottom: 20px;
+}
+
+.form-body .img-div{
+    width: 80%;
+    height: 350px;
+}
+
+.form-div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #ccc;
+}

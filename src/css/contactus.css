@@ -1,0 +1,23 @@
+.aboutus {
+    height: 70vh;   
+    position: relative;
+    margin-bottom: 30px;
+}
+.aboutus img {
+    height: 70vh;
+    width: 100%;
+}
+.aboutus .overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.aboutus .overlay h1 {
+    font-size: 60px;
+}
+

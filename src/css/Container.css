@@ -1,0 +1,27 @@
+.cards-body { 
+    margin-bottom: 30px;
+}
+.cards-body h2{
+    margin-bottom: 30px;
+}
+
+.cards-body .card {
+    margin-bottom: 20px;
+    border: none;
+    height: 550px;
+    position: relative;
+}
+
+.cards-body .card img {
+    height: 100%;
+    border-radius: 12px;
+    box-shadow: 7px 7px 7px #ccc;
+}
+.cards-body .card h3 {
+    margin-top: 20px;
+}
+.cards-body .card .card-overlay{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}

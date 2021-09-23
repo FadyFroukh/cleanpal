@@ -1,0 +1,52 @@
+.who{
+    height: 70vh;
+    position: relative;
+}
+.who-overlay{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    top: 0;
+}
+.who .who-overlay h1 {
+    font-size: 60px;
+}
+.who img {
+    height: 70vh;
+    width: 100%;
+}
+.top-line{
+    font-size: 25px;
+    color: rgb(13, 187, 158);
+}
+
+/* Aboutus cards */
+
+.aboutus-card{
+    min-height: 700px;
+}
+.aboutus-card .text-div{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.aboutus-card .img-div , .aboutus-card .text-div{
+    margin-bottom: 40px;
+}
+.aboutus-card .img-div{
+    height: 500px;
+}
+.aboutus-card .points-list{
+    list-style: none;
+    line-height: 1.86;
+}
+.aboutus-card .points-list li{
+    font-size: 25px;
+}
+.aboutus-card .img-div img {
+    height: 100%;
+    width: 100%;
+}

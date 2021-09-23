@@ -1,0 +1,43 @@
+body {
+    transition: all .4s ease-out;
+}
+.home{
+    height: 80vh;
+    margin-bottom: 60px;
+}
+main .slider-container{
+    height: 85vh;
+    position: relative;
+}
+main .slider-container img {
+    width: 100%;
+    height: 100%;
+}
+main .slider-container .slider-overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(184, 174, 174, 0.11);
+    display: flex;
+    align-items: center;
+}
+.slider-overlay .overlay-body{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+
+}
+.slider-overlay .overlay-body {
+    font-size: 25px;
+}
+.slider-overlay .overlay-body .overlay-text {
+    text-align: center;
+}
+.slider-overlay .overlay-body svg {
+    cursor: pointer;
+}
+
+.slider-container img {
+    transition: all .3s ease-out;
+}

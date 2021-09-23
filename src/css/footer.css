@@ -1,0 +1,51 @@
+footer {
+    background-color: rgb(14, 14, 14);
+    color: #fff;
+    padding: 50px;
+}
+
+footer .part{
+    margin-bottom: 20px;
+}
+
+footer .part h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+footer ul {
+    list-style: none;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+}
+footer ul li {
+    font-size: 25px;
+}
+footer ul li a {
+    color: #a5a7b9;
+}
+footer ul svg{
+    margin-left: 10px;
+}
+footer ul .num , .location{
+    color: #a5a7b9;
+}
+footer ul .location{
+    font-size: 20px;
+}
+footer p {
+    font-size: 24px;
+}
+
+.developer{
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgb(14, 14, 14);
+    color: #fff;
+}
+
+.developer strong {
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+}

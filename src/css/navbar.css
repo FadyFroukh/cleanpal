@@ -1,0 +1,73 @@
+nav{
+    padding:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+nav .nav-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-container .nav-list{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+nav .nav-container .nav-list li{
+    margin-left: 20px;
+}
+nav .nav-container .nav-list li:first-of-type{
+    margin-left: 0;
+}
+
+nav .nav-container .menuIcon{
+    display: none;
+}
+
+nav .nav-container .menuIcon svg {
+    cursor: pointer;
+}
+
+.hidden-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hidden-menu .hidden-list{
+    list-style: none;
+    display: none;
+    text-align: center;
+}
+.hidden-menu .hidden-list li {
+    font-size: 22px;
+    padding-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+}
+.hidden-menu .hidden-list li:last-of-type {
+    padding-bottom: 0;
+}
+
+@media screen and (max-width:400px) {
+    nav .nav-container .nav-list{
+        display: none;
+    }
+    nav .nav-container .menuIcon{
+        display: inline-block;
+    }
+
+}
+
+@media (min-width:401px) and (max-width:767px){
+    nav .nav-container .nav-list{
+        display: none;
+    }
+    nav .nav-container .menuIcon{
+        display: inline-block;
+    }
+}
