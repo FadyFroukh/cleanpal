@@ -6,7 +6,7 @@ function Header({imgSrc,heading,headingColor}){
             <section>
                 <img src={imgSrc} alt="Header Component"/>
                 <div className="overlay">
-                    <h1 style={{color:headingColor ? headingColor : "#000" }}>{heading}</h1>
+                    <h1 style={{color:headingColor ? headingColor : "#000" }} className="text-center">{heading}</h1>
                 </div>
             </section>
         </>
