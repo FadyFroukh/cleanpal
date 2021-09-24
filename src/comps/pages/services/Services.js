@@ -1,5 +1,6 @@
 import React , {useContext, useEffect} from 'react';
 import { langContext } from '../../../App';
+import Header from '../../Header';
 
 function Services(){
 
@@ -12,7 +13,7 @@ function Services(){
 
     return(
         <>
-            <div>{isArabic ? "عربي" : "English"}</div>
+            <Header imgSrc="images/services.jpg" heading={isArabic ? "خدماتنا" : "Our Services"}/>
         </>
     );
 };

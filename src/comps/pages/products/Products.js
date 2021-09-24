@@ -1,6 +1,7 @@
 import React , {useContext, useEffect} from 'react';
 import { langContext } from '../../../App';
 import "../../../css/products.css";
+import Header from '../../Header';
 import ProductsCard from '../../ProductsCard';
 function Products(){
 
@@ -20,12 +21,7 @@ function Products(){
 
     return(
         <>
-        <main className="products">
-           <img src="images/rubber.jpg" alt="Header Component"/>
-           <div className="products-overlay">
-                   <h1>{isArabic ? "منتجاتنا" : "Our Products"}</h1>
-           </div>
-        </main>
+        <Header imgSrc="images/rubber.jpg" heading={isArabic ? "منتجاتنا" : "Our Products"}/>
         <ProductsCard {...productOne}/>
        </>
 

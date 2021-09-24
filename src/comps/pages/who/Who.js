@@ -3,6 +3,7 @@ import { langContext } from '../../../App';
 import "../../../css/who.css";
 import AboutUsCard from '../../AboutUsCard';
 import Cards from '../../Cards';
+import Header from '../../Header';
 function Who(){
     const pageName = "من نحن"
     const isArabic = useContext(langContext);
@@ -70,12 +71,7 @@ function Who(){
 
     return(
         <>
-         <main className="who">
-            <img src="images/whoare.jpg" alt="who"/>
-            <div className="who-overlay">
-                    <h1 style={{color:"#000"}}>{isArabic ? "من نحن" : "Who are we"}</h1>
-            </div>
-         </main>
+         <Header imgSrc="images/whoare.jpg" heading={isArabic ? "من نحن" : "Who are we"}/>
          <Cards {...cardsObjOne}/>
          <AboutUsCard {...cardsObjThree}/>
          <AboutUsCard {...cardsObjTwo}/>

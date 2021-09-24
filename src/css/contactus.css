@@ -1,13 +1,13 @@
-.aboutus {
+section {
     height: 70vh;   
     position: relative;
     margin-bottom: 30px;
 }
-.aboutus img {
+section img {
     height: 70vh;
     width: 100%;
 }
-.aboutus .overlay{
+section .overlay{
     position: absolute;
     top: 0;
     width: 100%;
@@ -17,7 +17,7 @@
     align-items: center;
     color: #fff;
 }
-.aboutus .overlay h1 {
+section .overlay h1 {
     font-size: 60px;
 }
 

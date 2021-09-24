@@ -74,6 +74,23 @@ section .overlay h1{
 .product-container h1 {
     margin-bottom: 20px;
 }
-.products-container .rubber h3 {
 
+.product-container .img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-container .img-div .img-container{
+    text-align: center;
+}
+
+/* Position */
+.position a {
+    margin-left: 8px;
+}
+.position svg {
+    font-size: 15px;
+}
+.position {
+    font-size: 18px;
 }

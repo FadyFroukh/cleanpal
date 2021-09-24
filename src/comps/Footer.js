@@ -16,7 +16,7 @@ function Footer(){
                 <div className="row">
                     <div className="col-lg-4 part">
                         <h1>{isArabic ? "كلين بالكو" : "CleanPalCo"}</h1>
-                        <img alt="Logo" src="images/logo.png" height="160" width="160"/>
+                        <img alt="Logo" src="../images/logo.png" height="160" width="160"/>
                         <p>{isArabic ? " كل الحقوق محفوظة للعام 2021" : "All rights reserved for the year 2021"}</p>
                     </div>
                     <div className="col-lg-2 part">

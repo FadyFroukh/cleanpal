@@ -2,6 +2,7 @@ import React , {useContext, useEffect} from 'react';
 import { langContext } from '../../../App';
 import ContactForm from '../../ContactForm';
 import "../../../css/contactus.css";
+import Header from '../../Header';
 function ContactUs(){
 
     const pageName = "تواصل معنا"
@@ -13,12 +14,7 @@ function ContactUs(){
 
     return(
         <>
-            <main className="aboutus">
-                <img src="images/contactus.jpg" alt="Maybe Contact Us?" className=""/>
-                <div className="overlay">
-                    <h1>{isArabic ? "تواصل معنا" : "Contact Us"}</h1>
-                </div>
-            </main>
+            <Header imgSrc="images/contactus.jpg" heading={isArabic ? "تواصل معنا" : "Contact Us"} headingColor="#fff"/>
             <ContactForm imgSrc="images/mail"/>
         </>
     );
