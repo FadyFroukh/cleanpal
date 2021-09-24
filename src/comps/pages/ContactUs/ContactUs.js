@@ -10,7 +10,8 @@ function ContactUs(){
 
     useEffect(()=>{
         document.title = pageName;
-    },[pageName]);
+        window.scrollTo(0,0);
+    },[]);
 
     return(
         <>

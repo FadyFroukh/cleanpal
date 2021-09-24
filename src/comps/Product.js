@@ -1,5 +1,4 @@
-import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useContext, useEffect } from 'react';
 import { langContext } from '../App';
 import Header from './Header';
 import Position from './Position';
@@ -9,7 +8,10 @@ function Product({match}){
     const id = match.params.id;
     var thisPage = match.url.split("/our-products/");
     const capitalStr = thisPage[1].charAt(0).toUpperCase() + thisPage[1].slice(1);
-    console.log(match)
+
+    useEffect(()=>{
+        window.scrollTo(0,0);
+    },[])
 
     if (id === "rubber"){
         return(

@@ -9,6 +9,7 @@ function Services(){
 
     useEffect(()=>{
         document.title = pageName;
+        window.scrollTo(0,0);
     },[pageName]);
 
     return(

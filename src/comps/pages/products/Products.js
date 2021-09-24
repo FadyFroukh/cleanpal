@@ -10,6 +10,7 @@ function Products(){
 
     useEffect(()=>{
         document.title = pageName;
+        window.scrollTo(0,0);
     },[pageName]);
 
     const productOne = {

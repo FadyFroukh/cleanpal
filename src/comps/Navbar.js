@@ -15,6 +15,10 @@ function Navbar(){
         setClick(!click);
     }
 
+    const closeMenu = ()=>{
+        setClick(!click);
+    }
+
     return (
         <>
             <nav>
@@ -39,7 +43,7 @@ function Navbar(){
                 {
                     click ?  <ul className="hidden-list" style={{display:'block',padding:"12px"}}>
                     {
-                        isArabic ? arLinks.map((link,index)=><li key={index} className="list-item"><Link to={`/${enLinks[index].toLowerCase()}`}>{link}</Link></li>) 
+                        isArabic ? arLinks.map((link,index)=><li key={index} className="list-item" onClick={closeMenu}><Link to={`/${enLinks[index].toLowerCase()}`}>{link}</Link></li>) 
                         :enLinks.map((link,index)=><li key={index} className="list-item"><Link to={`/${enLinks[index].toLowerCase()}`}>{link}</Link></li>)
                     }
                     </ul> : null

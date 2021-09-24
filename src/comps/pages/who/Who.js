@@ -10,6 +10,7 @@ function Who(){
 
     useEffect(()=>{
         document.title = pageName;
+        window.scrollTo(0,0);
     },[pageName]);
 
     
@@ -33,7 +34,7 @@ function Who(){
         src:"images/values.jpg",
         points:[isArabic ? "حماية البيئة" : "Protecting the enviroment" , isArabic ? "التخلص من مخلفات المحاجر" : "Helping stone mines to get rid of thier waste and to reduce it's harm"
         ,isArabic ?"الفعالية" : "Efficiency onduty" , isArabic ? "تطور مستمر" : "Continuous improvment", isArabic ? "الابداع في العمل" : "Creativity at work and preserving high productivity"],
-        id:"values"
+        id:"values",
     }
     const cardsObjThree = {
         heading: isArabic ? "رسالتنا" : "Our Message",
@@ -42,7 +43,7 @@ function Who(){
         points:[isArabic ? "تسعى الشركة الى توصيل فكرة حماية البيئة لكل شخص" : "The company thrives to deliver the message of protecting the enviroment to every single one " ,
          isArabic ? "استعمال مواد مضرة بالبيئة لصناعة مواد جديدة" : "use waste and useless material to come up with new useful materials"
         ,isArabic ?"توفير فرص عمل للشباب" : "create employment opportunities for the youth"],
-        id:"message"
+        id:"message",
     }
     const cardsObjFour = {
         heading: isArabic ? "هدفنا" : "Our Goal",
@@ -53,7 +54,7 @@ function Who(){
         isArabic ? "توفير فرص عمل للعاطلين عن العمل" : "Employment opportunities to reduce unemployment",
         isArabic ? "المنافسة بالمتجر الاقليمي بمنتج فلسطيني" : "Competing in the regional market with a palestinian product",
         isArabic ? "تطوير قدرات الشباب في ادارة المؤسسات وتحسينها ليكون لهم فرص افضل في سوق العمل" : "Exploiting the youth's capability in managing organizations , and working on making it better , so the youth would have a better chance in the employment market "],
-        id:"goal"
+        id:"goal",
     }
     const cardsObjFive = {
         heading: isArabic ? "رؤيتنا" : "Our Vision",
@@ -62,12 +63,8 @@ function Who(){
         points:[isArabic ? "الشركة تم تأسيسها لحل بعض المشاكل البيئية التي تعاني منها فلسطين وباقي العالم" : "The company was founded to solve some of the enviromental issues that the palestinian society is facing and to help the rest of the world",
         isArabic ? "تأمل الشركة الى ان يصبح المجتمع بدون اي مخلفات حجرية" : "The company aspires to reach a society without any kind of rubber and stone waste",
         isArabic ? "الشركة تعمل على اعادة تدوير هذه المخلفات وسوف تكون اختيارات نفس الموجود بالسوق وايضا صديق للبيئة" : "The company works on recycling those wastes to create a new product with a static percentage of it , which will be a replacement of what's avaliable and also enviroment-friendly "],
-        id:"vision"
+        id:"vision",
     }
-
-    useEffect(()=>{
-        window.scrollTo(0,0);
-      },[]);
 
     return(
         <>

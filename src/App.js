@@ -2,7 +2,7 @@ import './App.css';
 import {BrowserRouter as Router , Switch , Route } from 'react-router-dom';
 import Home from './comps/pages/home/Home';
 import Navbar from './comps/Navbar';
-import React , {useEffect, useState} from 'react';
+import React , {useState} from 'react';
 import Services from './comps/pages/services/Services';
 import Products from './comps/pages/products/Products';
 import ContactUs from './comps/pages/ContactUs/ContactUs';
